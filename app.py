@@ -1,6 +1,4 @@
 import random
-#import hangman_stages
-#import word_files
 word_list=['apple','banana','dragon','jack fruit']
 lives=6
 chosen_word=random.choice(word_list)
@@ -25,4 +23,4 @@ while not game_over:
     if '_' not in display:
         game_over=True
         print("you win!!")
-        #print(hangman_stages.stages[lives])
+        
